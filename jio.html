@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #plans {
+            display: flex;
+        }
+        
+        #plans div {
+            margin-left: 100px;
+        }
+        
+        #plans div button {
+            border: 1px solid red;
+            width: 90px;
+            height: 40px;
+            margin-top: 20px;
+            border-radius: 20px;
+            background-color: white;
+            color: blue;
+            font-weight: bolder;
+        }
+        
+        #plans div button:hover {
+            cursor: pointer;
+            background-color: aquamarine;
+            color: black;
+            font-size: 17px;
+        }
+        
+        #box {
+            border: 1px solid red;
+            width: 15%;
+            height: 150px;
+            margin-top: 10%;
+            background-color: white;
+            text-align: center;
+            font-size: 18px;
+            font-family: sans-serif;
+        }
+        
+        #pay {
+            border: 1px solid red;
+            width: 100px;
+            font-size: 12px;
+            height: 50px;
+            background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+        }
+        
+        body {
+            background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="plans">
+        <div>
+            <h1>top</h1>
+            <button onclick="btn1()">499</button> <br>
+            <button onclick="btn2()">15</button><br>
+            <button onclick="btn3()">25</button><br>
+            <button onclick="btn4()">719</button><br>
+            <button onclick="btn5()">299</button><br>
+            <button onclick="btn6()">666</button><br>
+            <button onclick="btn7()">239</button><br>
+            <button onclick="btn8()">2999</button><br>
+            <button onclick="btn9()">249</button><br>
+            <button onclick="btn10()">179</button><br>
+            <button onclick="btn11()">199</button><br>
+            <button onclick="btn12()">209</button><br>
+            <button onclick="btn13()">149</button><br>
+            <button onclick="btn14()">119</button>
+        </div> 
+        <div>
+            <h1>cricket</h1>
+            <button onclick="btn15()">2999</button><br>
+            <button onclick="btn16()">499</button><br>
+            <button onclick="btn17()">799</button><br>
+            <button onclick="btn18()">555</button><br>
+            <button onclick="btn19()">1066</button><br>
+            <button onclick="btn20()">601</button><br>
+            <button onclick="btn21()">659</button><br>
+            <button onclick="btn22()">4199</button><br>
+            <button onclick="btn23()">61</button>
+        </div>
+        <div>
+            <h1>data</h1>
+            <button onclick="btn24()">121</button><br>
+            <button onclick="btn25()">181</button><br>
+            <button onclick="btn26()">241</button><br>
+            <button onclick="btn27()">301</button>
+        </div>
+        <div>
+            <h1>sp</h1>
+            <button onclick="btn28()">479</button><br>
+            <button onclick="btn29()">2545</button><br>
+            <button onclick="btn30()">533</button><br>
+            <button onclick="btn31()">2879</button><br>
+            <button onclick="btn32()">419</button><br>
+            <button onclick="btn33()">1199</button>
+        </div>
+        <div>
+            <h1>jio phone</h1>
+            <button onclick="btn34()">899</button><br>
+            <button onclick="btn35()">125</button><br>
+            <button onclick="btn36()">75</button><br>
+            <button onclick="btn37()">152</button><br>
+            <button onclick="btn38()">186</button><br>
+            <button onclick="btn39()">222</button><br>
+            <button onclick="btn40()">91</button><br>
+            <button onclick="btn41()">182</button><br>
+            <button onclick="btn42()">122</button><br>
+            <button onclick="btn43()">86</button><br>
+            <button onclick="btn44()">62</button><br>
+            <button onclick="btn45()">26</button>
+        </div>
+        <div>
+            <h1>isd/ir</h1>
+            <button onclick="btn46()">1101</button><br>
+            <button onclick="btn47()">5751</button><br>
+            <button onclick="btn48()">2875</button><br>
+            <button onclick="btn49()">575</button><br>
+            <button onclick="btn50()">1201</button><br>
+            <button onclick="btn51()">501</button>
+        </div>
+        <div id="box">
+            <p id="offers">Voice:Unlimited voice calling, <br>SMS:100 SMS per day, <br>Data:A 2GB high-speed data limit <br>Validity:56Days</p>
+            <div id="pay">
+                <h1>PAY</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    function btn2(){
+        var text1 = document.getElementById("offers").innerText="Data:1GB,\n Validity:Base Plan"
+    }
+    function btn3(){
+        var text1 = document.getElementById("offers").innerText="Data:2GB,\n Validity:Base Plan"
+    }
+    function btn4(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2GB high-speed data limit \n Validity:84 Days"
+    }
+    function btn5(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2GB high-speed data limit \n Validity:28 Days"
+    }
+    function btn6(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 1.5GB high-speed data limit \n Validity:84 Days"
+    }
+    function btn7(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 1.5GB high-speed data limit \n Validity:28 Days"
+    }
+    function btn8(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2.5GB high-speed data limit \n Validity:365 Days \n Offer: 75GB data + 23 days"
+    }
+    function btn9(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2GB high-speed data limit \n Validity:23 Days"
+    }
+    function btn10(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 1GB high-speed data limit \n Validity:24 Days"
+    }
+    function btn11(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 1.5GB high-speed data limit \n Validity:23 Days"
+    }
+    function btn12(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 1GB high-speed data limit \n Validity:28 Days"
+    }
+    function btn13(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 1GB high-speed data limit \n Validity:20 Days"
+    }
+    function btn14(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 1GB high-speed data limit \n Validity:14 Days"
+    }
+    function btn15(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2.5GB high-speed data limit \n Validity:365 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn16(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2.5GB high-speed data limit \n Validity:56 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn17(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2.5GB high-speed data limit \n Validity:365 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn18(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2.5GB high-speed data limit \n Validity:84 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn19(){
+        var text1 = document.getElementById("offers").innerText="Voice:NA,\n SMS:NA, \n Data:A 55GB high-speed data limit \n Validity:55 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn20(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2GB high-speed data limit \n Validity:275 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn21(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2GB high-speed data limit \n Validity:84 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn22(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2.5GB high-speed data limit \n Validity:55 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn23(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2.5GB high-speed data limit \n Validity:500 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn24(){
+        var text1 = document.getElementById("offers").innerText="Data:6GB,\n Validity:Base Plan"
+    }
+    function btn25(){
+        var text1 = document.getElementById("offers").innerText="Data:12GB,\n Validity:Base Plan"
+    }
+    function btn26(){
+        var text1 = document.getElementById("offers").innerText=" Voice:NA \n SMS: NA \n Data:30GB,\n Validity:30Days"
+    }
+    function btn27(){
+        var text1 = document.getElementById("offers").innerText="Voice:NA \n SMS: NA \n Data:50GB,\n Validity:30Days"
+    }
+    function btn28(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 1.5GB high-speed data limit \n Validity:56 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn29(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 1.5GB high-speed data limit \n Validity:336 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn30(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2GB high-speed data limit \n Validity:56 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn31(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2GB high-speed data limit \n Validity:365 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn32(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 3GB high-speed data limit \n Validity:28 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn33(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 3GB high-speed data limit \n Validity:84 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn34(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:50 SMS for 28(12Cycles), \n Data:A 2GB/28days(12Cycles) high-speed data limit \n Validity:336 Days(28Days*12Cycles) \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn35(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:300, \n Data:A 0.5GB high-speed data limit \n Validity:23 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn36(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:50 SMS per day, \n Data:A 2.5GB(0.1GB/day+200MB) high-speed data limit \n Validity:23 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn37(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:300 SMS, \n Data:A 0.5GB high-speed data limit \n Validity:28 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn38(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 1GB high-speed data limit \n Validity:28 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn39(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:100 SMS per day, \n Data:A 2GB high-speed data limit \n Validity:28 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn40(){
+        var text1 = document.getElementById("offers").innerText="Voice:Unlimited voice calling,\n SMS:50 SMS per day, \n Data:A 3GB(0.1GB/day+200MB) high-speed data limit \n Validity:28 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn41(){
+        var text1 = document.getElementById("offers").innerText="Voice:NA,\n SMS:NA, \n Data:A 2GB high-speed data limit \n Validity:28 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn42(){
+        var text1 = document.getElementById("offers").innerText="Voice:NA,\n SMS:NA, \n Data:A 1GB high-speed data limit \n Validity:28 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn43(){
+        var text1 = document.getElementById("offers").innerText="Voice:NA,\n SMS:NA, \n Data:A 0.5GB high-speed data limit \n Validity:28 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn44(){
+        var text1 = document.getElementById("offers").innerText="Voice:NA,\n SMS:NA, \n Data:A 6GB high-speed data limit \n Validity:28 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn45(){
+        var text1 = document.getElementById("offers").innerText="Voice:NA,\n SMS:NA, \n Data:A 2GB high-speed data limit \n Validity:28 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn46(){
+        var text1 = document.getElementById("offers").innerText="Voice:Rs.933.05,\n SMS:5 ISD SMS, \n Validity:28 Days \n Free Apps:Jio Cinema,JioTV,Jio Security,Jio Cloud"
+    }
+    function btn47(){
+        var text1 = document.getElementById("offers").innerText="Voice:outgoing local calls + outgoing class to India,\n SMS:1500 ISD SMS, \n Data:A 5GB high-speed data limit \n Validity:28 Days \n Countries:22"
+    }
+    function btn48(){
+        var text1 = document.getElementById("offers").innerText="Voice:outgoing local calls + outgoing class to India,\n SMS:100 ISD SMS, \n Data:A 250MB high-speed data limit \n Validity:7 Days \n Countries:22"
+    }
+    function btn49(){
+        var text1 = document.getElementById("offers").innerText="Voice:outgoing local calls + outgoing class to India,\n SMS:100 ISD SMS, \n Data:A 250MB high-speed data limit \n Validity:28 Days \n Countries:22"
+    }
+    function btn50(){
+        var text1 = document.getElementById("offers").innerText="Voice:outgoing local calls + outgoing class to India,\n SMS:100 ISD SMS, \n Data:A 250MB high-speed data limit \n Validity:28 Days \n Countries:22"
+    }
+    function btn51(){
+        var text1 = document.getElementById("offers").innerText="Voice:Rs.424.58 \n SMS:5 ISD SMS,\n Validity:28 Days"
+    }
+
+</script>
